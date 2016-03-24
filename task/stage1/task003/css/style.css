@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*-------global------*/
+*{ margin: 0px; padding: 0px; font-family: "微软雅黑","黑体";}
+ul,li{ list-style: none}
+img{ display: block;}
+
+/*--------main----------*/
+.container{ padding: 20px;  overflow: hidden; background: #eee; margin: 20px; border: solid 1px #999; min-width: 640px;  }
+.left{ float: left; width: 140px; padding: 20px; border: solid 1px #999;background-color: #fff; }
+.left>h1{ font-size: 18px; }
+.left>img{ float: left; padding: 0 20px 0 0; }
+.center{  border: solid 1px #999;padding:20px; margin: 0 140px 0 200px; background-color: #fff; font-size: 15px; text-align: justify;}
+.right{ float: right; width: 120px;  border: solid 1px #999; background-color: #fff; }
+.right>img{ margin:20px; display: block; border: solid 1px #999; }
